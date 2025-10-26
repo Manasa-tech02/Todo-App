@@ -97,7 +97,7 @@ export default function TodoScreen() {
   const [todoToDelete, setTodoToDelete] = useState<string | null>(null);
 
 
-  useEffect(() => {    // we use this for fetching data from server
+  useEffect(() => {     
     const loadTodos = async () => { // async means this function needs to do something that takes time.
       
         const storedTodos = await AsyncStorage.getItem(TODOS_STORAGE_KEY);
