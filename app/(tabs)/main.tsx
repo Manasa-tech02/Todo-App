@@ -49,7 +49,7 @@ const AddTodoForm = ({ onAdd }: AddTodoFormProps) => {
         placeholder="Add a new task..."
         value={text}
         onChangeText={setText}
-        //onSubmitEditing={handleAddPress}
+        
         
       />
       <Button title="Add" onPress={handleAddPress} />
